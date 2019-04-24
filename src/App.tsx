@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <div className="signup-form">
         <label htmlFor={p}>{p}: </label>
         <input type={p === "username" ? "text" : p}
-                value={p == "username" ? username : (p === "password" ? password : email)} id={p} name={p} required onChange={setForm} />
+                value={p === "username" ? username : (p === "password" ? password : email)} id={p} name={p} required onChange={setForm} />
       </div>
   )
   
